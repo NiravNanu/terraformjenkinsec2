@@ -26,7 +26,7 @@ EOF
 
 resource "aws_security_group" "jenkins_sg" {
   name = "jenkins-sg"
-  vpc_id = "vpc-0a17b1954a7121c05"
+  vpc_id = " vpc-018ebaffcde3a97ff"
 
   ingress  {
     from_port = 22
