@@ -25,7 +25,7 @@ EOF
 }
 
 resource "aws_security_group" "jenkins_sg" {
-  name = "jenkins-sg"
+  name = "jenkins_sg"
   vpc_id = "vpc-018ebaffcde3a97ff"
 
   ingress  {
